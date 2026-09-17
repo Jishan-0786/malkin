@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function createFloatingHearts() {
     const container = document.body;
-    const heartsList = ['❤️', '💖', '💕', '💗', '🤍'];
+    const heartsList = ['❤️', '💖', '💕', '💑', '👩‍❤️‍👨', '🌹', '✨'];
     for(let i=0; i<35; i++) {
         const heart = document.createElement('div');
         heart.innerHTML = heartsList[Math.floor(Math.random() * heartsList.length)];
